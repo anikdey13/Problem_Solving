@@ -102,10 +102,23 @@
 # print(eval(exp))
 
 
-for _ in range(int(input())):
-    a,b,c,d = list(map(int,input().split()))
+# for _ in range(int(input())):
+#     a,b,c,d = list(map(int,input().split()))
 
-    if a/b == c/d:
-        print("Equal")
-    else:
-        print("Not Equal")
+#     if a/b == c/d:
+#         print("Equal")
+#     else:
+#         print("Not Equal")
+
+
+# def count_perfect_square(H, W):
+#     total_count = 0
+#     max_k = min(H, W)
+#     for k in range(1, max_k + 1):
+#         total_count += (H - k + 1) * (W - k + 1)
+#     return total_count
+# H,W = list(map(int,input().split()))
+# print(count_perfect_square(H,W))
+
+
+
