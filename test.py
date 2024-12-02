@@ -14,18 +14,23 @@
 # print(output)
 
 
+#Factorial testing
 
-num = int(input())
-facts = []
-fact = 1
-for i in range(1,num+1):
-    for j in range()
-    fact *= i
-facts.append(fact)
-k = num
-while k >= 1:
-    fact = fact//k
-    facts.append(fact)
-    k-=1
+# num = int(input())
+# facts = []
+# fact = 1
+# for i in range(1,num+1):
+#     for j in range()
+#     fact *= i
+# facts.append(fact)
+# k = num
+# while k >= 1:
+#     fact = fact//k
+#     facts.append(fact)
+#     k-=1
 
-print(fact)
+# print(fact)
+nums = [1, 2, 3]
+print(nums)
+print(nums.pop())
+print(nums)
